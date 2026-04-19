@@ -19,23 +19,7 @@ Analysis of how noun embeddings in mBERT distinguish syntactic roles (subject vs
    - Cosine distance analysis between role centroids
    - PCA visualization and statistical significance tests
 
-## Data
-
-Stored in `data/` (UD treebanks):
-- English: en_ewt-ud-{train,dev,test}.conllu
-- Hindi: hi_hdtb-ud-{train,dev,test}.conllu
-- Turkish: tr_imst-ud-{train,dev,test}.conllu
-
-Outputs in `outputs/`:
-- `*_embeddings.npz` (13 layers × token count × 768 dims)
-- `*_meta.csv` (token metadata)
-- `*_balanced.csv` (balanced datasets)
 
 ## Results
 
-Peak probe accuracy by language:
-- English: Layer 8
-- Hindi: Layer 8
-- Turkish: Layer 12
-
-See `outputs/` for detailed metrics (accuracy, cosine distance by layer).
+See `figures/` for output results
