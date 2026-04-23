@@ -1,4 +1,4 @@
-# Syntactic Role Representation in Multilingual BERT
+# Syntactic Role Representation in mBERT
 
 Analysis of how noun embeddings in mBERT distinguish syntactic roles (subject vs. object) across English, Hindi, and Turkish.
 
